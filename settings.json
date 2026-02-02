@@ -1,6 +1,9 @@
 {
     "size": 10,
-    "difficulty": 0,
+    "difficulty": 5,
+    "treasure_minimum": 500,
+    "treasure_maximum": 1000,
+
     "middle_elite_line": true,
 
     "densities": {
@@ -11,14 +14,21 @@
         "treasure": 0.25
     },
 
+    "party": [
+        {
+            "level": 10,
+            "count": 4
+        }
+    ],
+
     "enemies": [
         {
             "name": "Weak Enemy",
-            "challenge_rating": 0.25
+            "xp": 10
         },
         {
             "name": "Stronger Enemy",
-            "challenge_rating": 2
+            "xp": 200
         }
     ],
 
@@ -36,12 +46,12 @@
 
     "elite_fights": [
         {
-            "name": "Big Boy.",
+            "name": "Big Boy",
             "description": "X3 Sentinals"
         },
 
         {
-            "name": "Small boy.",
+            "name": "Small boy",
             "description": "X1 Swarm of Rats"
         }
     ],

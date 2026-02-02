@@ -6,6 +6,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, PatternFill, Font
 
 def generate():
+    # Load settings.
     with open("settings.json", "r") as file:
         settings = json.load(file)
 
