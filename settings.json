@@ -1,0 +1,59 @@
+{
+    "size": 10,
+    "difficulty": 0,
+    "middle_elite_line": true,
+
+    "densities": {
+        "empty": 2,
+        "fight": 1,
+        "event": 1,
+        "elite": 0.25,
+        "treasure": 0.25
+    },
+
+    "enemies": [
+        {
+            "name": "Weak Enemy",
+            "challenge_rating": 0.25
+        },
+        {
+            "name": "Stronger Enemy",
+            "challenge_rating": 2
+        }
+    ],
+
+    "events": [
+        {
+            "name": "Event #1",
+            "description": "One event.\nTwo events."
+        },
+
+        {
+            "name": "Event #2",
+            "description": "Three event.\nFour event."
+        }
+    ],
+
+    "elite_fights": [
+        {
+            "name": "Big Boy.",
+            "description": "X3 Sentinals"
+        },
+
+        {
+            "name": "Small boy.",
+            "description": "X1 Swarm of Rats"
+        }
+    ],
+
+    "bosses": [
+        {
+            "name": "Powerful Lad",
+            "description": "X1 High Mage"
+        },
+        {
+            "name": "Fifty Revenants",
+            "description": "X50 Revenants"
+        }
+    ]
+}
